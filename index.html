@@ -29,7 +29,7 @@
             border-radius:5px;
             padding: 6px;
             background: rgb(120, 255, 224);
-            color: ffffff
+            color: ffffff;
             text-align: center;
         }
         
@@ -48,9 +48,14 @@
             padding: 6px;
             background: rgb(150, 255, 255);
         }
+        #shortcut {
+            width:100px;
+            height:100px;
+            padding:5px;
+        }
         body{
             font-family: Arial, sans-serif;
-            background: #00ffff;
+            background: #003b6f;
         }
         .overlay {
             height: 0%;
@@ -144,7 +149,7 @@
             <br>
             <br>
 
-            <canvas id="canvas" width="350" height="350" style="background-color:#00ffff"></canvas>
+            <canvas id="canvas" width="350" height="350" style="background-color:#003b6f"></canvas>
 
 
             <script>
@@ -254,10 +259,9 @@
             </form>
             <br>
             <br>
-            <a href="http://www.youtube.com" target="_blank"><img src="youtube.png" alt="YouTube" style="width:100px;height:100px;"></a>
-            <a href="http://www.amazon.com" target="_blank"><img src="amazon.png" alt="Amazon" style="width:100px;height:100px;"></a>
-            <a href="http://www.sololearn.com" target="_blank"><img src="sololearn.png" alt="SoloLearn" style="width:100px;height:100px;"></a>
-            <a href="http://www.gmail.com" target="_blank"><img src="Gmail.png" alt="Gmail" style="width:100px;height:100px;"></a>
+            <a href="http://www.youtube.com" target="_blank"><img src="youtube.png" alt="YouTube" id="shortcut"></a>
+            <a href="http://www.sololearn.com" target="_blank"><img src="sololearn.png" alt="SoloLearn" id="shortcut"></a>
+            <a href="http://www.gmail.com" target="_blank"><img src="Gmail.png" alt="Gmail" id="shortcut" style="width:108px; height:82px;"></a>
             <h3><p align="center" id="credit">Created By DoctorBean04 </p></h3>
             <a href="history.html" id="history">EX2 Release history</a>
         </center>
